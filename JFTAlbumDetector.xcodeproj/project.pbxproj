@@ -13,6 +13,14 @@
 		306DB6F21FAD91A9005D13DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 306DB6F11FAD91A9005D13DC /* Assets.xcassets */; };
 		306DB6F51FAD91A9005D13DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 306DB6F31FAD91A9005D13DC /* LaunchScreen.storyboard */; };
 		306DB6F81FAD91A9005D13DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 306DB6F71FAD91A9005D13DC /* main.m */; };
+		306DB7101FAD91F9005D13DC /* JFTPHAssetFaceDetecteOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 306DB6FF1FAD91F8005D13DC /* JFTPHAssetFaceDetecteOperation.m */; };
+		306DB7111FAD91F9005D13DC /* JFTPhotoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 306DB7011FAD91F8005D13DC /* JFTPhotoCollectionViewCell.m */; };
+		306DB7121FAD91F9005D13DC /* JFTPhotoPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 306DB7031FAD91F8005D13DC /* JFTPhotoPickerViewController.m */; };
+		306DB7131FAD91F9005D13DC /* JFTPhotosLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 306DB7051FAD91F8005D13DC /* JFTPhotosLoader.m */; };
+		306DB7141FAD91F9005D13DC /* JFTAlbumFilterHepler.m in Sources */ = {isa = PBXBuildFile; fileRef = 306DB7081FAD91F8005D13DC /* JFTAlbumFilterHepler.m */; };
+		306DB7151FAD91F9005D13DC /* JFTAlbumFilterMappingModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 306DB70A1FAD91F8005D13DC /* JFTAlbumFilterMappingModel.m */; };
+		306DB7161FAD91F9005D13DC /* JFTAlbumFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 306DB70B1FAD91F8005D13DC /* JFTAlbumFilter.m */; };
+		306DB7171FAD91F9005D13DC /* JFTAlbumDetector.m in Sources */ = {isa = PBXBuildFile; fileRef = 306DB70C1FAD91F8005D13DC /* JFTAlbumDetector.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +34,23 @@
 		306DB6F41FAD91A9005D13DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		306DB6F61FAD91A9005D13DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		306DB6F71FAD91A9005D13DC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		306DB6FE1FAD91F7005D13DC /* JFTAlbumDetector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFTAlbumDetector.h; sourceTree = "<group>"; };
+		306DB6FF1FAD91F8005D13DC /* JFTPHAssetFaceDetecteOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFTPHAssetFaceDetecteOperation.m; sourceTree = "<group>"; };
+		306DB7011FAD91F8005D13DC /* JFTPhotoCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFTPhotoCollectionViewCell.m; sourceTree = "<group>"; };
+		306DB7021FAD91F8005D13DC /* JFTPhotosLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFTPhotosLoader.h; sourceTree = "<group>"; };
+		306DB7031FAD91F8005D13DC /* JFTPhotoPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFTPhotoPickerViewController.m; sourceTree = "<group>"; };
+		306DB7041FAD91F8005D13DC /* JFTPhotoCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFTPhotoCollectionViewCell.h; sourceTree = "<group>"; };
+		306DB7051FAD91F8005D13DC /* JFTPhotosLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFTPhotosLoader.m; sourceTree = "<group>"; };
+		306DB7061FAD91F8005D13DC /* JFTPhotoPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFTPhotoPickerViewController.h; sourceTree = "<group>"; };
+		306DB7071FAD91F8005D13DC /* JFTAlbumFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFTAlbumFilter.h; sourceTree = "<group>"; };
+		306DB7081FAD91F8005D13DC /* JFTAlbumFilterHepler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFTAlbumFilterHepler.m; sourceTree = "<group>"; };
+		306DB7091FAD91F8005D13DC /* JFTAlbumFilterMappingModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFTAlbumFilterMappingModel.h; sourceTree = "<group>"; };
+		306DB70A1FAD91F8005D13DC /* JFTAlbumFilterMappingModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFTAlbumFilterMappingModel.m; sourceTree = "<group>"; };
+		306DB70B1FAD91F8005D13DC /* JFTAlbumFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFTAlbumFilter.m; sourceTree = "<group>"; };
+		306DB70C1FAD91F8005D13DC /* JFTAlbumDetector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFTAlbumDetector.m; sourceTree = "<group>"; };
+		306DB70D1FAD91F8005D13DC /* JFTPHAssetDetectorCacheProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFTPHAssetDetectorCacheProtocol.h; sourceTree = "<group>"; };
+		306DB70E1FAD91F9005D13DC /* JFTPHAssetFaceDetecteOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFTPHAssetFaceDetecteOperation.h; sourceTree = "<group>"; };
+		306DB70F1FAD91F9005D13DC /* JFTAlbumFilterHepler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFTAlbumFilterHepler.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +83,18 @@
 		306DB6E71FAD91A8005D13DC /* JFTAlbumDetector */ = {
 			isa = PBXGroup;
 			children = (
+				306DB7001FAD91F8005D13DC /* picker */,
+				306DB6FE1FAD91F7005D13DC /* JFTAlbumDetector.h */,
+				306DB70C1FAD91F8005D13DC /* JFTAlbumDetector.m */,
+				306DB7071FAD91F8005D13DC /* JFTAlbumFilter.h */,
+				306DB70B1FAD91F8005D13DC /* JFTAlbumFilter.m */,
+				306DB70F1FAD91F9005D13DC /* JFTAlbumFilterHepler.h */,
+				306DB7081FAD91F8005D13DC /* JFTAlbumFilterHepler.m */,
+				306DB7091FAD91F8005D13DC /* JFTAlbumFilterMappingModel.h */,
+				306DB70A1FAD91F8005D13DC /* JFTAlbumFilterMappingModel.m */,
+				306DB70D1FAD91F8005D13DC /* JFTPHAssetDetectorCacheProtocol.h */,
+				306DB70E1FAD91F9005D13DC /* JFTPHAssetFaceDetecteOperation.h */,
+				306DB6FF1FAD91F8005D13DC /* JFTPHAssetFaceDetecteOperation.m */,
 				306DB6E81FAD91A8005D13DC /* AppDelegate.h */,
 				306DB6E91FAD91A8005D13DC /* AppDelegate.m */,
 				306DB6EB1FAD91A8005D13DC /* ViewController.h */,
@@ -69,6 +106,19 @@
 				306DB6F71FAD91A9005D13DC /* main.m */,
 			);
 			path = JFTAlbumDetector;
+			sourceTree = "<group>";
+		};
+		306DB7001FAD91F8005D13DC /* picker */ = {
+			isa = PBXGroup;
+			children = (
+				306DB7011FAD91F8005D13DC /* JFTPhotoCollectionViewCell.m */,
+				306DB7021FAD91F8005D13DC /* JFTPhotosLoader.h */,
+				306DB7031FAD91F8005D13DC /* JFTPhotoPickerViewController.m */,
+				306DB7041FAD91F8005D13DC /* JFTPhotoCollectionViewCell.h */,
+				306DB7051FAD91F8005D13DC /* JFTPhotosLoader.m */,
+				306DB7061FAD91F8005D13DC /* JFTPhotoPickerViewController.h */,
+			);
+			path = picker;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,9 +192,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				306DB7151FAD91F9005D13DC /* JFTAlbumFilterMappingModel.m in Sources */,
+				306DB7121FAD91F9005D13DC /* JFTPhotoPickerViewController.m in Sources */,
+				306DB7111FAD91F9005D13DC /* JFTPhotoCollectionViewCell.m in Sources */,
+				306DB7101FAD91F9005D13DC /* JFTPHAssetFaceDetecteOperation.m in Sources */,
 				306DB6ED1FAD91A9005D13DC /* ViewController.m in Sources */,
+				306DB7171FAD91F9005D13DC /* JFTAlbumDetector.m in Sources */,
+				306DB7161FAD91F9005D13DC /* JFTAlbumFilter.m in Sources */,
+				306DB7131FAD91F9005D13DC /* JFTPhotosLoader.m in Sources */,
 				306DB6F81FAD91A9005D13DC /* main.m in Sources */,
 				306DB6EA1FAD91A8005D13DC /* AppDelegate.m in Sources */,
+				306DB7141FAD91F9005D13DC /* JFTAlbumFilterHepler.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +337,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2NCX2WCTH8;
 				INFOPLIST_FILE = JFTAlbumDetector/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jft0m.JFTAlbumDetector;
@@ -292,6 +351,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2NCX2WCTH8;
 				INFOPLIST_FILE = JFTAlbumDetector/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jft0m.JFTAlbumDetector;
