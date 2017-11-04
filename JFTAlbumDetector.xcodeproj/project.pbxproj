@@ -21,6 +21,7 @@
 		306DB7151FAD91F9005D13DC /* JFTAlbumFilterMappingModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 306DB70A1FAD91F8005D13DC /* JFTAlbumFilterMappingModel.m */; };
 		306DB7161FAD91F9005D13DC /* JFTAlbumFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 306DB70B1FAD91F8005D13DC /* JFTAlbumFilter.m */; };
 		306DB7171FAD91F9005D13DC /* JFTAlbumDetector.m in Sources */ = {isa = PBXBuildFile; fileRef = 306DB70C1FAD91F8005D13DC /* JFTAlbumDetector.m */; };
+		306DB7191FAD96C1005D13DC /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 306DB7181FAD96C1005D13DC /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +52,7 @@
 		306DB70D1FAD91F8005D13DC /* JFTPHAssetDetectorCacheProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFTPHAssetDetectorCacheProtocol.h; sourceTree = "<group>"; };
 		306DB70E1FAD91F9005D13DC /* JFTPHAssetFaceDetecteOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFTPHAssetFaceDetecteOperation.h; sourceTree = "<group>"; };
 		306DB70F1FAD91F9005D13DC /* JFTAlbumFilterHepler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFTAlbumFilterHepler.h; sourceTree = "<group>"; };
+		306DB7181FAD96C1005D13DC /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 		306DB6E71FAD91A8005D13DC /* JFTAlbumDetector */ = {
 			isa = PBXGroup;
 			children = (
+				306DB7181FAD96C1005D13DC /* README.md */,
 				306DB7001FAD91F8005D13DC /* picker */,
 				306DB6FE1FAD91F7005D13DC /* JFTAlbumDetector.h */,
 				306DB70C1FAD91F8005D13DC /* JFTAlbumDetector.m */,
@@ -181,6 +184,7 @@
 			files = (
 				306DB6F51FAD91A9005D13DC /* LaunchScreen.storyboard in Resources */,
 				306DB6F21FAD91A9005D13DC /* Assets.xcassets in Resources */,
+				306DB7191FAD96C1005D13DC /* README.md in Resources */,
 				306DB6F01FAD91A9005D13DC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
